@@ -1,0 +1,13 @@
+feeds	
+0	
+name	"station_status"
+url	"https://api-core.bixi.com/gbfs/en/station_status.json"
+1	
+name	"station_information"
+url	"https://api-core.bixi.com/gbfs/en/station_information.json"
+2	
+name	"system_alerts"
+url	"https://api-core.bixi.com/gbfs/en/system_alerts.json"
+3	
+name	"system_information"
+url	"https://api-core.bixi.com/gbfs/en/system_information.json"
