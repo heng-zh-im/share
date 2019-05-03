@@ -1,0 +1,33 @@
+Hello
+
+This folder contains some sample data processed from BIXI open data.
+
+folder structure:
+1,from-direction
+2,from-membership
+3,from-time
+4,to-direction
+5,to-membership
+6,to-time
+
+
+1,from-direction
+file name convention: 
+ - from-xxxx-Dx means the stats for the usage counts of depart from station xxxx, and go to different destination.
+ - for x in -Dx/-Mx/-Tx, x means the weekday, from Monday as 1 to Sunday as 7.
+ - in each file, one row means a direction, the columns from 3-26 represent 24 hours of a day.
+
+2,from-membership
+from-xxxx-Mx means the same as above, but the stats is for membership counts
+
+3,from-time
+from-xxxx-Tx means the same as above, but the stats is for average duration time in each direction
+
+4,to-direction
+to-xxxx-Dx means the stats for the usage counts of arriving at station xxxx.
+
+5,to-membership
+same as above
+
+6,to-time
+same as above
