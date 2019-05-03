@@ -1,4 +1,7 @@
-feeds	
+real time bixi feeds	
+
+can check station or bike real time availability with these feeds
+
 0	
 name	"station_status"
 url	"https://api-core.bixi.com/gbfs/en/station_status.json"
